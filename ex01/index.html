@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>sha256</title>
+</head>
+<body>
+
+<form action="">
+  <input type="file" id="input" onchange="handleFiles(this.files)">
+  </form>
+</body>
+
+<script>
+  var selectedFile = document.getElementById('input').files[0];
+  inputElement.addEventListener("change", handleFiles, false);
+  function handleFiles() {
+  var fileList = this.files
+}
+
+console.log(fileList)
+
+
+
+
+
+  // var file    = document.querySelector('input[type=file]').files[0];
+
+  // var reader = new FileReader();
+  //   reader.onload = function() {
+  //       // this gets read of the mime-type data header
+  //       var actual_contents = reader.result.slice(reader.result.indexOf(',') + 1);
+  //       var what_i_need = new jsSHA(actual_contents, "B64").getHash("SHA-256", "HEX");
+  //   }
+  // reader.readAsDataURL(file);
+
+</script>
+</html>
